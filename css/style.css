@@ -368,11 +368,13 @@ img {
 .detail-list {
     list-style: none;
     line-height: 24px;
-    width: 460px;
-    height: 170px;
+    
     
     margin: 0;
     padding-left: 37px;
+    
+    width: auto;
+    height: auto;
 }
 
 .table-title {
@@ -1284,13 +1286,6 @@ input[type="radio"].visually-hidden {
     margin-top: 80px;
 }
 
-/*.map iframe {
-    margin-left: 232px;
-    z-index: 0;
-}
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6073672247653!2d30.320631751981914!3d59.938657081787206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8403eb878242dbd5!2z0JTQvtGF0L7QtNC90YvQuSDQtNC-0Lwg0J0uINCQLiDQnNC10LvRjNGG0LXRgNCw!5e0!3m2!1sru!2sru!4v1505162188756" width="1440px" height="420" frameborder="0" style="border:0" allowfullscreen></iframe>*/
-
 .map-2 {
      margin-top: 57px;
 }
@@ -1764,8 +1759,6 @@ input[type="radio"].visually-hidden {
     color: #000000;
 }
 
-
-
 .paginator {
     width: 480px;
     padding: 0px;
@@ -1802,7 +1795,6 @@ input[type="radio"].visually-hidden {
 .paginator a{
     margin-right: 7px;
 }
-
 
 .current-page {
     display: inline-block;
